@@ -8,7 +8,7 @@ Apply Allergo foundation model for different materials properties analysis
    - We aims at exploring Allegro-FM foundation model and also [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/).
 
 **2. Project goal**
-   - Designing and characterizing single-Layer graphene with Allegro-FM, including the effects of target doping and point defects and how it interact with the greenhosue gases and water content.
+   - Designing and characterizing single-Layer graphene with Allegro-FM, including the effects of target doping and point defects.
    - Validating the model's predictions against existing experimental or theoretical data for 2D graphene.
    - Testing optimal dopant types and concentrations.
    - Simulating phenomena at a larger scale, such as defect formation and favourable adsorption sites.
@@ -21,6 +21,5 @@ Apply Allergo foundation model for different materials properties analysis
    - Result Analysis: Use ASE tools for preliminary analysis, then use tools like [phonopy](https://phonopy.github.io/phonopy/phonopy-module.html) or [mdapy](https://mdapy.readthedocs.io/en/latest/) for validation and characterization purpose. 
 
 **4. Expercted results**
-   - Effect of water content on gas adsorption and selectivity performance in graphene
-   - Adsorption energy with and without the presence of H₂O
-   - Influence of defects and dopants on adsorption energy for graphene
+   - Dopants concentration/types effects on graphene's structure perperties
+   - Different defects effects on graphene chemical and physical  properties
