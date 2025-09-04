@@ -1,15 +1,18 @@
 # Allergo-FM-application-for-materials-property
-apply Allergo foundation model for different materials properties analysis 
+Apply Allergo foundation model for different materials properties analysis 
 
 **Outline of project**:
+
 **1. Introduction and Background**:
    - This project aims to use foundation model for materials research and molecular dynamics.
    - We aims at exploring Allegro-FM foundation model and also [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/).
+
 **2. Project goal**
    - Designing and characterizing single-Layer graphene with Allegro-FM, including the effects of target doping and point defects.
    - Validating the model's predictions against existing experimental or theoretical data for graphene.
    - Testing optimal dopant types and concentrations.
    - Simulating phenomena at a larger scale, such as defect formation.
+     
 **3. Methodology**
    - Allegro-FM integration with [Atomic Simulation Environment](https://nequip.readthedocs.io/en/latest/integrations/ase.html): Use ASE package to build the single layer bulk and defective graphene.
    - Data Preparation for Fine-Tuning: Gather dataset of graphene or doped graphene structures and their corresponding energies and forces to use for fine-tuning.
