@@ -11,7 +11,7 @@ Outline of project:
    - Testing optimal dopant types and concentrations.
    - Simulating phenomena at a larger scale, such as defect formation.
 3. Methodology
-   - Allegro-FM integration with Atomic Simulation Environment: Use ASE package to build the single-layer graphene structures.
+   - Allegro-FM integration with [Atomic Simulation Environment](https://nequip.readthedocs.io/en/latest/integrations/ase.html): Use ASE package to build the single-layer graphene structures.
    - Data Preparation for Fine-Tuning: Gather dataset of graphene or doped graphene structures and their corresponding energies and forces to use for fine-tuning.
    - Model Fine-tuning: Load pre-trained Allegro-FM with 89 elements, then fine-tune the model using the prepared graphene dataset to optimize for this particular material.
    - MD runs: Run large-scale molecular dynamics simulations. Also simulate the effects of doping, such as changes in lattice structure or defect formation.
